@@ -2,7 +2,7 @@
 
 Map of distance bands from Russia, measured in Ukraines as units.
 
-![Map of distance bands from Russia, measured in Ukraines as units.](https://raw.githubusercontent.com/andrewxhill/fat_russia/master/fat_russia.png)
+![Map of distance bands from Russia, measured in Ukraines as units.](https://raw.githubusercontent.com/sztanko/distance_map/main/poster.png)
 
 # Running the Code
 
