@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.34.0-Prizren" saveDateTime="2024-01-29T17:22:52" projectname="How far away are you from Russia?" saveUserFull="Demeter Sztanko" saveUser="demeter.sztanko">
+<qgis version="3.34.0-Prizren" saveDateTime="2024-01-29T19:59:06" projectname="How far away are you from Russia?" saveUserFull="Demeter Sztanko" saveUser="demeter.sztanko">
   <homePath path=""/>
   <title>How far away are you from Russia?</title>
   <transaction mode="Disabled"/>
@@ -5046,7 +5046,7 @@ def my_form_open(dialog, layer, feature):
           </dd_properties>
         </text-style>
       </LayoutItem>
-      <LayoutItem resizeToContents="1" referencePoint="0" rasterBorder="1" titleAlignment="1" map_uuid="{14a2eb94-99d2-44ae-b2cb-b37294f0eea0}" symbolAlignment="1" size="83.8004,55.7377,mm" type="65642" excludeFromExports="0" positionLock="false" uuid="{b90f890f-8269-4ca9-b5ff-cef9627c8aad}" itemRotation="0" position="248.76,76.6966,mm" frameJoinStyle="miter" maxSymbolSize="0" rasterBorderWidth="0" columnSpace="2" visibility="1" templateUuid="{b90f890f-8269-4ca9-b5ff-cef9627c8aad}" minSymbolSize="0" background="false" boxSpace="2" symbolHeight="4" splitLayer="0" groupUuid="" positionOnPage="248.76,76.6966,mm" columnCount="1" equalColumnWidth="0" outlineWidthM="0.3,mm" wmsLegendHeight="25" id="" zValue="4" frame="false" title="Distance to Russia *" wrapChar="" blendMode="0" symbolWidth="7" legendFilterByAtlas="0" opacity="1" wmsLegendWidth="50" rasterBorderColor="0,0,0,255">
+      <LayoutItem resizeToContents="1" referencePoint="0" rasterBorder="1" titleAlignment="1" map_uuid="{14a2eb94-99d2-44ae-b2cb-b37294f0eea0}" symbolAlignment="1" size="83.7122,48.2965,mm" type="65642" excludeFromExports="0" positionLock="false" uuid="{b90f890f-8269-4ca9-b5ff-cef9627c8aad}" itemRotation="0" position="248.76,76.6966,mm" frameJoinStyle="miter" maxSymbolSize="0" rasterBorderWidth="0" columnSpace="2" visibility="1" templateUuid="{b90f890f-8269-4ca9-b5ff-cef9627c8aad}" minSymbolSize="0" background="false" boxSpace="2" symbolHeight="4" splitLayer="0" groupUuid="" positionOnPage="248.76,76.6966,mm" columnCount="1" equalColumnWidth="0" outlineWidthM="0.3,mm" wmsLegendHeight="25" id="" zValue="4" frame="false" title="Distance to Russia" wrapChar="" blendMode="0" symbolWidth="7" legendFilterByAtlas="0" opacity="1" wmsLegendWidth="50" rasterBorderColor="0,0,0,255">
         <FrameColor red="0" alpha="255" blue="0" green="0"/>
         <BackgroundColor red="255" alpha="255" blue="255" green="255"/>
         <LayoutObject>
@@ -5392,6 +5392,9 @@ def my_form_open(dialog, layer, feature):
             <customproperties>
               <Option type="Map">
                 <Option name="cached_name" value="Distance to Russia" type="QString"/>
+                <Option name="legend/label-1" value="You are as close as Ukraine *" type="QString"/>
+                <Option name="legend/label-2" value="You are less than a Ukraine away" type="QString"/>
+                <Option name="legend/title-style" value="hidden" type="QString"/>
               </Option>
             </customproperties>
           </layer-tree-layer>
